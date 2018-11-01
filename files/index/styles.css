@@ -561,11 +561,20 @@
   position:fixed;
   left:0px;
   top:0px;
+  width:412px;
+  height:102px;
+  overflow:hidden;
 }
 #u32_state0 {
-  position:relative;
+  position:absolute;
   left:0px;
   top:0px;
+  width:412px;
+  height:102px;
+  -ms-overflow-x:hidden;
+  overflow-x:hidden;
+  -ms-overflow-y:hidden;
+  overflow-y:hidden;
   background-image:none;
 }
 #u32_state0_content {
@@ -1240,8 +1249,9 @@ body.a {  background-color:rgba(255, 255, 255, 1);
   position:fixed;
   left:0px;
   top:0px;
-  width:375px;
+  width:412px;
   height:102px;
+  overflow:hidden;
 }
 #u33.a {
 }
@@ -1527,9 +1537,6 @@ body.a {  background-color:rgba(255, 255, 255, 1);
 #u48.a {
 }
 #u32_state0.a {
-  position:relative;
-  left:0px;
-  top:0px;
   background-color:rgba(255, 255, 255, 0);
   background-image:none;
 }
@@ -1839,6 +1846,7 @@ body.b {  background-color:rgba(255, 255, 255, 1);
   top:0px;
   width:414px;
   height:101px;
+  overflow:hidden;
 }
 #u33.b {
   width:414px;
@@ -2141,9 +2149,8 @@ body.b {  background-color:rgba(255, 255, 255, 1);
 #u48.b {
 }
 #u32_state0.b {
-  position:relative;
-  left:0px;
-  top:0px;
+  width:414px;
+  height:101px;
   background-color:rgba(255, 255, 255, 0);
   background-image:none;
 }
